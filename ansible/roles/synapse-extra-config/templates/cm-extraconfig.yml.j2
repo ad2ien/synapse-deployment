@@ -15,7 +15,7 @@ data:
       - idp_id: keycloak
         idp_name: "EIMIS Connect"
         idp_icon: "{{ mxc_eimis_connect.stdout }}"
-        issuer: "https://{{ keycloak.server_name }}/realms/eimis-realm"
+        issuer: "https://{{ keycloak.server_name }}/realms/my-realm"
         client_id: "{{ keycloak.client_id }}"
         client_secret: "{{ keycloak.client_secret }}"
         scopes: ["openid", "profile"]

@@ -1,13 +1,13 @@
 apiVersion: k8s.keycloak.org/v2alpha1
 kind: KeycloakRealmImport
 metadata:
-  name: eimis-realm-kc
+  name: my-realm-kc
   namespace: keycloak
 spec:
-  keycloakCRName: keycloak-eimis
+  keycloakCRName: keycloak-my
   realm:
-    id: eimis-realm
-    realm: eimis-realm
+    id: my-realm
+    realm: my-realm
     displayName: "Eimis Connect"
     enabled: true
     internationalizationEnabled: true
@@ -54,7 +54,7 @@ spec:
       ssl: "true"
       starttls: "true"
       user: "{{ matrix.smtp_user }}"
-    emailTheme: "eimis-email"
+    emailTheme: "my-email"
     attributes:
       cibaAuthRequestedUserHint: login_hint
       cibaBackchannelTokenDeliveryMode: poll

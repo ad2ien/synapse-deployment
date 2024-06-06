@@ -9,8 +9,8 @@
     Bearer {{ admin_access_token }}'   -H 'Content-Type: image/png'   --compressed | jq -r '.content_uri'"
   register: mxc_psc
 
-- name: EIMIS connect button image - upload files to synapse and retrieve the MXC uri
+- name: connect button image - upload files to synapse and retrieve the MXC uri
   shell:
-    "curl --data-binary @roles/auth-buttons/files/eimis-connect.png 'https://{{ matrix.server_name }}/_matrix/media/v3/upload?filename=eimis-connect.png'   -X 'POST'   -H 'Authorization:
+    "curl --data-binary @roles/auth-buttons/files/my-connect.png 'https://{{ matrix.server_name }}/_matrix/media/v3/upload?filename=my-connect.png'   -X 'POST'   -H 'Authorization:
     Bearer {{ admin_access_token }}'   -H 'Content-Type: image/png'   --compressed | jq -r '.content_uri'"
   register: mxc_eimis_connect

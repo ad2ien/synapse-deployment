@@ -1,7 +1,6 @@
 # Synapse on Kubernetes
 
 ![Matrix](https://img.shields.io/badge/matrix-000000?logo=Matrix&logoColor=white)
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/eimis-ans/eimis-synapse/lint.yml?label=lint&logo=github)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 Make a Synapse/Matrix server work on a managed kubernetes cluster hosted by OVH

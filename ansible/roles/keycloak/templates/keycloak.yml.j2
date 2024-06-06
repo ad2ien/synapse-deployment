@@ -1,13 +1,13 @@
 apiVersion: k8s.keycloak.org/v2alpha1
 kind: Keycloak
 metadata:
-  name: keycloak-eimis
+  name: keycloak-my
   namespace: keycloak
   labels:
-    app: keycloak-eimis
+    app: keycloak-my
 spec:
   instances: 1
-  image: eimisans/eimis-keycloak:{{ keycloak.image_tag }}
+  image: eimisans/my-keycloak:{{ keycloak.image_tag }}
   resources:
     requests:
       memory: "256Mi"

@@ -14,7 +14,7 @@ spec:
         paths:
           - backend:
               service:
-                name: keycloak-eimis-service
+                name: keycloak-my-service
                 port:
                   number: 8443
             pathType: ImplementationSpecific

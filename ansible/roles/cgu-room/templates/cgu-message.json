@@ -1,6 +1,6 @@
 {
-  "body": "**👋 Bienvenue dans l'expérimentation EIMIS sur les messageries instantanées !**\n\nL'objectif de cette expérimentation est de faciliter les communications entre professionnels de santé, dans un cadre sécurisé et pratique. Merci beaucoup pour votre participation !\n\nVous pouvez vous servir de cette application pour vous coordonner avec d'autres professionnels et échanger des informations sur vos patients, à condition de respecter les règles de confidentialité mentionnées dans les [Conditions Générales d'Utilisation](https://github.com/eimis-ans/eimis-synapse/wiki/CGU).\n\n⚠️ _Attention à ne partager des données de santé de patients qu'avec des professionnels habilités à les recevoir._",
+  "body": "**👋 Bienvenue!",
   "msgtype": "m.text",
   "format": "org.matrix.custom.html",
-  "formatted_body": "<p><strong>👋 Bienvenue dans l'expérimentation EIMIS sur les messageries instantanées !</strong></p>\n<p>L'objectif de cette expérimentation est de faciliter les communications entre professionnels de santé, dans un cadre sécurisé et pratique. Merci beaucoup pour votre participation !</p>\n<p>Vous pouvez vous servir de cette application pour vous coordonner avec d'autres professionnels et échanger des informations sur vos patients, à condition de respecter les règles de confidentialité mentionnées dans les <a href=\"https://github.com/eimis-ans/eimis-synapse/wiki/CGU\">Conditions Générales d'Utilisation</a>.</p>\n<p>⚠️ <em>Attention à ne partager des données de santé de patients qu'avec des professionnels habilités à les recevoir.</em></p>\n"
+  "formatted_body": "<p><strong>👋 Bienvenue!</strong></p>"
 }
