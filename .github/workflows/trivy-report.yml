@@ -7,8 +7,8 @@ on:
     branches: [develop]
 
   # every sunday at 00:00
-  schedule:
-    - cron: "0 0 * * 0"
+  # schedule:
+  #   - cron: "0 0 * * 0"
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -99,7 +99,7 @@ jobs:
           username: ${{ vars.SMTP_USER }}
           password: ${{ secrets.SMTP_PASS }}
           subject: Vulnerability report
-          to: eimis@beta.gouv.fr
+          to: contact@ad2ien.dev
           from: ${{ vars.SMTP_DISPLAY_NAME }} <${{ vars.SMTP_FROM }}>
           body: "Hi,\nI checked develop environment for vulnerabilities, please find attached the trivy report.\n\nG00d luck,\n\n🤖"
           attachments: trivy.txt, trivy-summary.txt

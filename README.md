@@ -1,15 +1,14 @@
 # Synapse on Kubernetes
 
 ![Matrix](https://img.shields.io/badge/matrix-000000?logo=Matrix&logoColor=white)
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/eimis-ans/eimis-synapse/lint.yml?label=lint&logo=github)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg?logo=apache)
 
 Runs a [Matrix](https://matrix.org/) server on a managed kubernetes cluster hosted by OVH.
 
 ## Features
 
-- [Customized Synapse](https://github.com/eimis-ans/eimis-synapse-image) server as the Matrix messaging server along with it's database and s3 bucket
-- [Customized Keycloak](https://github.com/eimis-ans/eimis-keycloak) as an alternative ID provider along with it's database
+- [Customized Synapse](https://github.com/ad2ien/eimis-synapse-image) server as the Matrix messaging server along with it's database and s3 bucket
+- [Customized Keycloak](https://github.com/ad2ien/eimis-keycloak) as an alternative ID provider along with it's database
 - [Element-Web](https://github.com/element-hq/element-web) as a Matrix client
 - [Prometheus](https://github.com/prometheus) et [Grafana](https://github.com/grafana/grafana) for the monitoring
 - The stack is also configured in a specific and configurable way cf. the ansible part.

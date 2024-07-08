@@ -10,7 +10,6 @@
     - keycloak-operator
     - postgresql-init
     - keycloak
-    - teams-bridge
     - stunner
     - synapse
     - first-admin
