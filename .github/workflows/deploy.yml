@@ -187,7 +187,7 @@ jobs:
 
       # Checkout the repository to the GitHub Actions runner
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       # Install the latest version of Terraform CLI
       - name: Setup Terraform
@@ -236,7 +236,7 @@ jobs:
         run: echo "${{ needs.set_environment.outputs.my_env }}"
 
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       # Install the latest version of Terraform CLI but without wrapper
       - name: Setup Terraform
